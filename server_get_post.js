@@ -18,5 +18,5 @@ console.log(body);
 	 var url_parts = url.parse(req.url,true); 
 	 console.log(url_parts.query); 
  }
- }).listen(8080, "127.0.0.1");
- sys.puts("listening to localhost : 8080");
+ }).listen(8080);
+ sys.puts("listening to 8080");
